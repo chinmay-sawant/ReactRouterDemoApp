@@ -50,25 +50,21 @@ This is a basic demo app built using React Router, Bootstrap, and other technolo
 ## Folder Structure
 
 react-router-demo/
-│
-├── README.md
-├── node_modules/
-├── package.json
-├── public/
-│ ├── index.html
-│ └── ...
-│
-└── src/
-│
-├── components/
-│ ├── Login.js
-│ ├── Navbar.js
-│ ├── NotFound.js
-│ ├── ProtectedRoute.js
-│ └── ...
-│
-└── pages/
-├── Home.js
-├── Login.js
-├── NotFound.js
-└── ...
+  README.md
+  node_modules/
+  package.json
+  public/
+    index.html
+    ...
+  src/
+    components/
+      Login.js
+      Navbar.js
+      NotFound.js
+      ProtectedRoute.js
+      ...
+    pages/
+      Home.js
+      Login.js  # This Login.js is likely different from the one in components
+      NotFound.js
+      ...
